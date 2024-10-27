@@ -5,7 +5,8 @@ YouTube: `https://www.youtube.com/watch?v=Rp5vd34d-z4&t=10519s`
 
 Source: 'https://github.com/gitdagray/django-course'
 
-1.
+x. Intro
+1. Start Here
 2.
 3.
 4.
@@ -15,3 +16,30 @@ Source: 'https://github.com/gitdagray/django-course'
 8.
 9.
 10.
+11.
+12.
+
+
+## Notes
+
+### Django 
+
+* Web Framework
+
+#### Install
+
+`$ pip install django`
+
+#### Check Version
+
+`$ python`
+`>>> import django`
+`>>> print(django.get_version())`
+
+#### Django Project
+
+`$ django-admin startproject {project-name}`
+
+#### Start Server
+
+`$ python manage.py runserver [port-number]`
