@@ -7,7 +7,7 @@ Source: 'https://github.com/BekBrace/django_course_2024'
 
 1. Introduction
 2. Setup & Installation
-3.
+3. Django Basics
 4.
 5.
 6.
@@ -40,9 +40,9 @@ or
 
 `$ pipenv shell`
 `$ pipenv install django`
-`$ django-admin startproject myproject`
+`$ django-admin startproject {project-name}`
 
-`$ cd myproject`
-`$ python manage.py startup myapp`
+`$ cd {project-name}`
+`$ python manage.py startapp {app-name}`
 
 `$ python manage.py runserver`
