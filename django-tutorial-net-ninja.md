@@ -6,7 +6,7 @@ YouTube: `https://www.youtube.com/playlist?list=PL4cUxeGkcC9iqfAag3a_BKEX1N43uJu
 Source: 'https://github.com/BekBrace/django_course_2024'
 
 1. Introduction
-2.
+2. Setup & Installation
 3.
 4.
 5.
@@ -15,6 +15,9 @@ Source: 'https://github.com/BekBrace/django_course_2024'
 8.
 9.
 10.
+11.
+12.
+13.
 
 
 ## Notes
@@ -22,3 +25,24 @@ Source: 'https://github.com/BekBrace/django_course_2024'
 * Python-based web framework for rapid development of efficient web applications.
 
 MVT - Model View Template
+
+### Install Django
+
+`$ pip install Django`
+or
+`$ python -m pip install Django==X.X.X`
+
+### Verify Django installed
+
+`$ django-admin --version`
+
+### Virtual Environment(pipenv)
+
+`$ pipenv shell`
+`$ pipenv install django`
+`$ django-admin startproject myproject`
+
+`$ cd myproject`
+`$ python manage.py startup myapp`
+
+`$ python manage.py runserver`
